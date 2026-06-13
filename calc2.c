@@ -18,7 +18,7 @@ int menu_logic()
 {
 
     printf("Choose operation: +, -, *, or /  ");
-    scanf("%c", &entry); 
+    scanf(" %c", &entry); 
     printf("Enter first number: ");
     scanf("%f", &num1);
     printf("Enter second number: ");
@@ -43,8 +43,11 @@ int menu_logic()
 char play_again() 
 {
     printf("Do you wish to perform another operation? 1 for yes, 2 for no.   ");
-    scanf("%f", &again);
+    scanf(" %f", &again);
     if (again == 1){ 
-    menu_logic(); 
-}   return 0;
+    return menu_logic(); 
+}else {
+    printf("Ending Program");
+    return 0;
+}
 }
