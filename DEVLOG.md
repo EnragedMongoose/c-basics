@@ -1,4 +1,4 @@
-##2026-06-13
+## 2026-06-13
 
 Made this repo to dump my basic programs into.
 
@@ -18,3 +18,41 @@ When calling menu_logic(), the function is being called twice? The first two pri
 
 
 It was a whitespace issue, i put a space in " %c" or w/e specifier it was. The calculator needs loop logic, as of now I can input two more digits but then the program exits. I'll need to change again from float to int to avoid any possile errors.
+
+## 2026-06-15
+
+Late devlog entry as I had to clone git due to local corruption:
+
+For continuous logic, think modular and switch. Switch case for operators including =, within a loop of some kind, 
+only breaking when = is used to make an answer, then after answer, hold current number in program unless cleared. 
+
+Have a dedicated "off" button to shut down the program, analogous to a power button.
+
+Make sure the inputs can replace current operator logic without losing progress in what numbers are inserted.
+
+
+Loop modules: Operators/Numbers.
+
+Number Loop: condition where it interacts with operator loop and vice versa -- two loops that can cycle between each other without breaking out of the overall loop, using conditionals to call each other.
+
+Essentially I want it to only exit if you hit the power off "button", or a clear command.
+
+
+## 2026-06-15
+
+Late devlog entry as I had to clone git due to local corruption:
+
+For continuous logic, think modular and switch. Switch case for operators including =, within a loop of some kind, 
+only breaking when = is used to make an answer, then after answer, hold current number in program unless cleared. 
+
+Have a dedicated "off" button to shut down the program, analogous to a power button.
+
+Make sure the inputs can replace current operator logic without losing progress in what numbers are inserted.
+
+
+Loop modules: Operators/Numbers.
+
+Number Loop: condition where it interacts with operator loop and vice versa -- two loops that can cycle between each other without breaking out of the overall loop, using conditionals to call each other.
+
+Essentially I want it to only exit if you hit the power off "button", or a clear command.
+
