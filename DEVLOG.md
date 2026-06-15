@@ -56,3 +56,12 @@ Number Loop: condition where it interacts with operator loop and vice versa -- t
 
 Essentially I want it to only exit if you hit the power off "button", or a clear command.
 
+// Part 2
+
+debug prints should always end with \n. 
+
+for scanf("%c", &operator) has no leading space, the whitespace trap again.  Use scanf(" %c", &operator);
+
+// Part 3
+
+I have decided to write more basic while loops before I touch on this calculator idea again. My function tossing isn't going to work well.
