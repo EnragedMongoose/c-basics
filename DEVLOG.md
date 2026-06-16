@@ -65,3 +65,8 @@ for scanf("%c", &operator) has no leading space, the whitespace trap again.  Use
 // Part 3
 
 I have decided to write more basic while loops before I touch on this calculator idea again. My function tossing isn't going to work well.
+
+
+## 2026-06-16
+
+Moved old calc files into /old. Making basic while loop programs in c-basic for now. 
