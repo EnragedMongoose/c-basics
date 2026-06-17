@@ -70,3 +70,9 @@ I have decided to write more basic while loops before I touch on this calculator
 ## 2026-06-16
 
 Moved old calc files into /old. Making basic while loop programs in c-basic for now. 
+
+
+## 2026-06-17
+
+Early morning session before work. Did prototype code to figure out functions calling functions and basic loop functionality. Will need to work on ways to break loops with a power off 'button' and a way to clear and to do all operations.
+
