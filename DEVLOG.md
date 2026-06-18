@@ -76,3 +76,6 @@ Moved old calc files into /old. Making basic while loop programs in c-basic for 
 
 Early morning session before work. Did prototype code to figure out functions calling functions and basic loop functionality. Will need to work on ways to break loops with a power off 'button' and a way to clear and to do all operations.
 
+PART 2:
+
+Evening session. Invovled while(1) but it isn't working - not looping through code at all. I'll hopefully figure it out tomorrow morning.
