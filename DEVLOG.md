@@ -79,3 +79,8 @@ Early morning session before work. Did prototype code to figure out functions ca
 PART 2:
 
 Evening session. Invovled while(1) but it isn't working - not looping through code at all. I'll hopefully figure it out tomorrow morning.
+
+
+## 2026-06-18
+
+C is just harder than Python. I made while.c to play around with while loops and I think I know what i'm doing now; i'll work on the calculator after work today.
