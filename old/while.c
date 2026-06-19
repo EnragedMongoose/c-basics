@@ -3,14 +3,13 @@
 int entry;
 int main(void) 
 {
-    scanf(" %d", &entry);
-    while(entry == 1) 
+    while(1) 
     {   
-        printf("\nInput here\n");
+        printf("Input 1 here\n");
         scanf(" %d", &entry);
         printf("\n");
         if (entry == 1) {
-            printf("Sucess!");
+            printf("Sucess!\n");
         }
     }
     printf("Goodbye\n");

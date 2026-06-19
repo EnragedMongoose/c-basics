@@ -84,3 +84,19 @@ Evening session. Invovled while(1) but it isn't working - not looping through co
 ## 2026-06-18
 
 C is just harder than Python. I made while.c to play around with while loops and I think I know what i'm doing now; i'll work on the calculator after work today.
+
+PART 2:
+
+While back from work I played with the while program and I my very simple block of code within the while block would not initiate and I had no idea why, so i made an input before the while loop, and set the expression within while() as entry == 1, just to start the program, which worked. Puzzled i went back and deleted all the code besides the actual and origina while loop code, and it ran. I can only suspect i added a ; after while(1). 
+
+I need to be sure not to add a ; after while, for, if.
+
+
+## 2026-06-19
+
+I have figured out how to make the switch and while logic work with whilecalc.c. I needed to include break in each case as it stops the switch and not the while loop as well. I also put the print statement with each case and not in the start of the while loop, this stops the issue of a blank output from a stored previous answer. 
+
+
+PART 2:
+
+The calculator is still far from complete, however; I still need to figure out a way to carry over the previous solution, to continue using operations, and to implement a clear functionality as well. I just troubleshooted plugging an external monitor to this machine and I'm still not completely done (still need to figure out how to close the lid and have the external be the only active display without making i3 freak out) so for now I'm tapped on energy to devote to coding anymore tonight as I have other more pressing things to do (Math and A+ study). 
