@@ -100,3 +100,10 @@ I have figured out how to make the switch and while logic work with whilecalc.c.
 PART 2:
 
 The calculator is still far from complete, however; I still need to figure out a way to carry over the previous solution, to continue using operations, and to implement a clear functionality as well. I just troubleshooted plugging an external monitor to this machine and I'm still not completely done (still need to figure out how to close the lid and have the external be the only active display without making i3 freak out) so for now I'm tapped on energy to devote to coding anymore tonight as I have other more pressing things to do (Math and A+ study). 
+
+
+## 2026-06-20
+
+Was on my mac and was playing around with things, instructed claude within vs code to act as a tutor and elaborated on my existing code, which is me trying to figure out how to escape from the program with 'x' at any ponit. It's still ongoing but basically I was using scanf with $d to capture a char.. not going to work. I'm still in Python mode with types. 
+
+This calculator project isn't beginner but intermediate, according to Claude anyway, so the friction I'm feeling as being basically brand new to C still, is understandable. I will continue with this project but I am also, in paralell, going to be starting the MIT course that is in my dev roadmap (which I should probably upload to the repo as well) to progress there and get educated on what I'm actually trying to do, hopefully. 

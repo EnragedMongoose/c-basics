@@ -8,6 +8,7 @@ int report_answer(int answer);
 int main(void) 
 {
     int looping = 1;
+    int answer = 0;
     printf("This calculator only has + - * / \n");
     while(looping) 
     {   
@@ -15,6 +16,12 @@ int main(void)
         scanf(" %c", &op);
         scanf(" %d", &entry2);
         printf("\n");
+switch(entry1)
+{
+    case 'x':
+        printf("Exiting Program.\n");
+        return 0;
+}
 switch(op)
     {
         
@@ -35,11 +42,16 @@ switch(op)
             printf("%d\n", answer);
             break;
         case 'x':
-            printf("Exiting calculator");
-            looping = 0;
-            break; 
+            printf("Exiting calculator\n");
+            break;
+            return 0; 
     }
-    
+   switch(entry2)
+{
+    case 'x':
+        printf("Exiting Program\n");
+        return 0;
 } 
 return answer;   
+}
 }
