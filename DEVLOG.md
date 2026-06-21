@@ -107,3 +107,8 @@ The calculator is still far from complete, however; I still need to figure out a
 Was on my mac and was playing around with things, instructed claude within vs code to act as a tutor and elaborated on my existing code, which is me trying to figure out how to escape from the program with 'x' at any ponit. It's still ongoing but basically I was using scanf with $d to capture a char.. not going to work. I'm still in Python mode with types. 
 
 This calculator project isn't beginner but intermediate, according to Claude anyway, so the friction I'm feeling as being basically brand new to C still, is understandable. I will continue with this project but I am also, in paralell, going to be starting the MIT course that is in my dev roadmap (which I should probably upload to the repo as well) to progress there and get educated on what I'm actually trying to do, hopefully. 
+
+
+PART 2:
+
+I didn't plan on doing more work today but I ended up randomly starting a session. I was able to code a solution to retain a value after an initial operation, and then be able to continue operations on that value. Example 10 * 2 = 20 / 5 = 4 * 2 = 8, and so on. Next step will be to condense the switch logic into one switch block, and then after that implement a clear function to start over.
