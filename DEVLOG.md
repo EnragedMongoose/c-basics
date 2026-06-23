@@ -112,3 +112,12 @@ This calculator project isn't beginner but intermediate, according to Claude any
 PART 2:
 
 I didn't plan on doing more work today but I ended up randomly starting a session. I was able to code a solution to retain a value after an initial operation, and then be able to continue operations on that value. Example 10 * 2 = 20 / 5 = 4 * 2 = 8, and so on. Next step will be to condense the switch logic into one switch block, and then after that implement a clear function to start over.
+
+
+## 2026-06-21
+
+Edited whilecalc.c, removed some unused code. Not feeling great today, don't know if i'll progress on much, if anything today.
+
+## 2026-06-22
+
+I got the core logic of performing an operation, holding onto that value, and then having the operator being the next selection, then an int for the following for continued, looped, calculation. This I feel meets the basics of what I was trying to achieve with this project. It is not perfect, the numbers are int only, I'm using 0 as a placeholder which is bad, but for it's purposes I feel content on stopping here on my own projects and start following the roadmap purely, at least for now.
