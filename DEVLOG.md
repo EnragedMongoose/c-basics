@@ -121,3 +121,7 @@ Edited whilecalc.c, removed some unused code. Not feeling great today, don't kno
 ## 2026-06-22
 
 I got the core logic of performing an operation, holding onto that value, and then having the operator being the next selection, then an int for the following for continued, looped, calculation. This I feel meets the basics of what I was trying to achieve with this project. It is not perfect, the numbers are int only, I'm using 0 as a placeholder which is bad, but for it's purposes I feel content on stopping here on my own projects and start following the roadmap purely, at least for now.
+
+## 2026-06-27
+
+I didn't intend on making an entry on this project again, at least not for a long time, however I accidently found out about the 'expression parser'. I put code into ~/.bashrc so i can launch ranger with an r, and use ! to enter shell commands from where I am in the directory in ranger. I ran the whilecalc.c program to test, and I did one calculation which resulted in 20, then i was going to do - 2, however, I hit -2 on the same line and it still produced the proper answer of 18. I was surprised by this behavior and asked claude and explained the expression parser. This is vital knowledge I just randomy came upon.
