@@ -124,4 +124,5 @@ I got the core logic of performing an operation, holding onto that value, and th
 
 ## 2026-06-27
 
-I didn't intend on making an entry on this project again, at least not for a long time, however I accidently found out about the 'expression parser'. I put code into ~/.bashrc so i can launch ranger with an r, and use ! to enter shell commands from where I am in the directory in ranger. I ran the whilecalc.c program to test, and I did one calculation which resulted in 20, then i was going to do - 2, however, I hit -2 on the same line and it still produced the proper answer of 18. I was surprised by this behavior and asked claude and explained the expression parser. This is vital knowledge I just randomy came upon.
+EDITED: I accidently stumbled upon the abilty of multiple scanf's reading all inputs on the same line entered; no need to hit enter between each step in whilecalc.c
+
